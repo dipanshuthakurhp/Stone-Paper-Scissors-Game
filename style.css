@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: crimson;
+    color: aliceblue;
+    height: 150px;
+    font-size: 100px;
+    text-align: center;
+}
+
+#all{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#result{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#A{
+    font-size: 60px;
+    font-weight: 700;
+    color: blue;
+    text-align: center;
+}
+
+#B{
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(179, 0, 255);
+    text-align: center;
+}
+
+#result{
+    font-size: 30px;
+}
+
+
+.game{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: darksalmon;
+    color: wheat;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game:hover{
+    transform: scale(1.1);
+}
+
+.message{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite ;
+
+    font-size: 40px;
+    display: inline;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: blueviolet;
+}
+
+#msg:hover{
+    transform: scale(1.1);
+}
+
+.credentials{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 50px
+}
+
+.button{
+    height: 100px;
+    background-color: darkkhaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit{
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
+    background-color: firebrick;
+    border-radius: 10px;
+    color: beige;
+}
